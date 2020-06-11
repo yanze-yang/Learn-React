@@ -1,6 +1,6 @@
 # Learn React
 
-- [Life Cycle](/pages/fundamentals/lifecycle/LifeCycleParent.js)
+- [Component Lifecycle Methods](/pages/fundamentals/lifecycle/LifeCycleParent.js)
 
 ## Getting Started
 
