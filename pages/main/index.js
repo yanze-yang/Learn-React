@@ -5,11 +5,18 @@ const Index = () => {
   return (
     <div>
       <div>
-        <Link href="/advanced/useMemo">
-          <a>useMemo()</a>
-        </Link>
+        <h1>Fundamentals</h1>
         <Link href="fundamentals/lifecycle">
-          <a>LifeCycle Metheds</a>
+          <a>- LifeCycle Metheds</a>
+        </Link>
+        <Link href="fundamentals/fragment">
+          <a>- Fragement</a>
+        </Link>
+      </div>
+      <div>
+        <h1>Advanced Topics</h1>
+        <Link href="/advanced/useMemo">
+          <a>- useMemo()</a>
         </Link>
       </div>
     </div>
