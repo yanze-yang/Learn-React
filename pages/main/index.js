@@ -6,18 +6,31 @@ const Index = () => {
     <div>
       <div>
         <h1>Fundamentals</h1>
-        <Link href="fundamentals/lifecycle">
-          <a>- LifeCycle Metheds</a>
-        </Link>
-        <Link href="fundamentals/fragment">
-          <a>- Fragement</a>
-        </Link>
-        <Link href="fundamentals/pure-components">
-          <a>- Pure Component</a>
-        </Link>
-        <Link href="fundamentals/memo-components">
-          <a>- Memo Component</a>
-        </Link>
+        <div>
+          <Link href="fundamentals/lifecycle">
+            <a>- LifeCycle Metheds</a>
+          </Link>
+        </div>
+        <div>
+          <Link href="fundamentals/fragment">
+            <a>- Fragement</a>
+          </Link>
+        </div>
+        <div>
+          <Link href="fundamentals/pure-components">
+            <a>- Pure Component</a>
+          </Link>
+        </div>
+        <div>
+          <Link href="fundamentals/memo-components">
+            <a>- Memo Component</a>
+          </Link>
+        </div>
+        <div>
+          <Link href="fundamentals/ref">
+            <a>- Ref</a>
+          </Link>
+        </div>
       </div>
       <div>
         <h1>Advanced Topics</h1>
