@@ -4,7 +4,7 @@
 
 - [Fragment](/pages/fundamentals/fragment/index.js)
 
-- [Pure Components](/pages/fundamentals/pure-components)
+- [Pure Components](/pages/fundamentals/pure-components/ParentCom.js)
 
 ## Getting Started
 
