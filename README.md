@@ -1,10 +1,14 @@
+<p align="center">
+  <img height="300" src="banner.gif">
+</p>
+
 # Learn React
 
 - [Component Lifecycle Methods](/pages/fundamentals/lifecycle/LifeCycleParent.js)
 
 - [Fragment](/pages/fundamentals/fragment/index.js)
 
-- [Pure Components](/pages/fundamentals/pure-components/ParentCom.js)
+- [Pure Components](/pages/fundamentals/pure-components/ParentComp.js)
 
 ## Getting Started
 
