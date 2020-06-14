@@ -2,6 +2,10 @@
 
 - [Component Lifecycle Methods](/pages/fundamentals/lifecycle/LifeCycleParent.js)
 
+- [Fragment](/pages/fundamentals/fragment/index.js)
+
+- [Pure Components](/pages/fundamentals/pure-components)
+
 ## Getting Started
 
 Run the Next.js development server:

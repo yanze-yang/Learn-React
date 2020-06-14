@@ -12,6 +12,9 @@ const Index = () => {
         <Link href="fundamentals/fragment">
           <a>- Fragement</a>
         </Link>
+        <Link href="fundamentals/pure-components">
+          <a>- Pure Component</a>
+        </Link>
       </div>
       <div>
         <h1>Advanced Topics</h1>
