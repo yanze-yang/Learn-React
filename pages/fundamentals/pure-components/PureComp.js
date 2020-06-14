@@ -1,5 +1,6 @@
 import React, { PureComponent } from "react";
 
+// declare a `Pure Component` by using `extends PureComponent`
 class PureComp extends PureComponent {
   render() {
     console.log("Pure Component render");

@@ -8,7 +8,9 @@
 
 - [Fragment](/pages/fundamentals/fragment/index.js)
 
-- [Pure Components](/pages/fundamentals/pure-components/ParentComp.js)
+- [Pure Components-1](/pages/fundamentals/pure-components/ParentComp.js) | [Pure Components-2](/pages/fundamentals/pure-components/PureComp.js)
+
+- [Memo Components](/pages/fundamentals/memo-components/MemoComp.js)
 
 ## Getting Started
 
