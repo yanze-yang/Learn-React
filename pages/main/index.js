@@ -27,7 +27,7 @@ const Index = () => {
           </Link>
         </div>
         <div>
-          <Link href="fundamentals/ref">
+          <Link href="fundamentals/refs">
             <a>- Ref</a>
           </Link>
         </div>
