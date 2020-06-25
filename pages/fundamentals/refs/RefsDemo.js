@@ -6,7 +6,7 @@ class RefsDemo extends Component {
     // approach 1: React.createRef();
     this.inputRef = React.createRef();
 
-    // older approach: callback ref
+    // approach 2 (older): callback ref
     this.callbackRef = null;
     this.setCallbackRef = (element) => {
       this.callbackRef = element;
