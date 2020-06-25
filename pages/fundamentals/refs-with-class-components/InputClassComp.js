@@ -1,13 +1,17 @@
 import React, { Component } from "react";
 
-class Input extends Component {
+class InputClassComp extends Component {
   constructor(props) {
     super(props);
 
     this.inputRef = React.createRef();
   }
 
-  focusInput() {
+  printInfoFn() {
+    alert("Hi, it's printInfoFn() in InputClassComp");
+  }
+
+  focusInputFn() {
     this.inputRef.current.focus();
   }
 
@@ -20,4 +24,4 @@ class Input extends Component {
   }
 }
 
-export default Input;
+export default InputClassComp;

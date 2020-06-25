@@ -9,7 +9,8 @@
 - [Pure Components-1](/pages/fundamentals/pure-components/ParentComp.js) | [Pure Components-2](/pages/fundamentals/pure-components/PureComp.js)
 - [Memo Components](/pages/fundamentals/memo-components/MemoComp.js)
 - [Refs](/pages/fundamentals/refs/RefsDemo.js)
-- [Refs with Class Components]()
+- [Refs with Class Components](/pages/fundamentals/refs-with-class-components/InputFocus.js)
+- [Forwarding Refs 1](/pages/fundamentals/refs-forwarding-refs/ParentInput.js) | - [Forwarding Refs 2](/pages/fundamentals/refs-forwarding-refs/ChildInput.js)
 
 ## Getting Started
 
