@@ -11,8 +11,6 @@ export class ParentInput extends Component {
   }
 
   focusClickHandler() {
-    // the `focusInputFn()` defined on InputClassComp will make the input be focused.
-    // we just use this.componentRef.current to access `focusInputFn()` and excute it.
     this.ref.current.focus();
   }
 
