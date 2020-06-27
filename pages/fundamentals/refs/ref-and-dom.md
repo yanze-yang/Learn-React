@@ -23,12 +23,12 @@ The child to be modified could be:
 class CustomTextInput extends React.Component {
   constructor(props) {
     super(props);
-    // 1. React.createRef(); ✅
+    // 1. React.createRef() ✅
     // create a ref to store the textInput DOM element
     this.inputRef = React.createRef();
     this.focusTextInput = this.focusTextInput.bind(this);
 
-    // 2. callback ref (older) ⚠️
+    // 2. callback ref (older) 👎
     this.callbackRef = null;
     this.setCallbackRef = (element) => {
       this.callbackRef = element;
@@ -50,7 +50,7 @@ class CustomTextInput extends React.Component {
       this.callbackRef.focus();
     }
 
-    // 3. use refs[name] (bad) ⚠️
+    // 3. use refs[name] (bad) 👎
     this.refs.inputName.focus();
   }
 
