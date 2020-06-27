@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../../components/Footer";
 import RefsDemo from "./RefsDemo";
+import FnRefs from "./FnRefs";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <h2>Refs</h2>
       <RefsDemo />
       <Footer />
+      <FnRefs />
     </div>
   );
 };

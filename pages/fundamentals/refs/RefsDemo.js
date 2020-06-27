@@ -14,6 +14,8 @@ class RefsDemo extends Component {
   }
 
   componentDidMount() {
+    console.log("this.refs", this.refs.haha.value);
+
     // this.inputRef.current accesses the input DOM
     this.inputRef.current.focus();
     console.log(this.inputRef);
@@ -26,6 +28,7 @@ class RefsDemo extends Component {
       this.callbackRef.focus();
       console.log(this.callbackRef);
     }
+    this.refs.haha.focus();
   }
 
   clickHandler = () => {
@@ -45,6 +48,10 @@ class RefsDemo extends Component {
         </div>
         <div>
           <input type="text" ref={this.setCallbackRef} />
+          <button onClick={this.clickHandler2}>check input value</button>
+        </div>
+        <div>
+          <input type="text" ref="haha" />
           <button onClick={this.clickHandler2}>check input value</button>
         </div>
       </div>
