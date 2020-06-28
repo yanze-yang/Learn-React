@@ -6,7 +6,8 @@ import HoverCounter from "./HoverCounter";
 const Hoc2 = () => {
   return (
     <div>
-      <ClickCounter />
+      {/* when you pass `mynNum` to  <ClickCounter />, it is passed to HOC */}
+      <ClickCounter myNum={5} />
       <HoverCounter />
     </div>
   );
